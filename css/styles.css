@@ -1,0 +1,110 @@
+
+/*Profes, les pido disculpas de antemano por la calidad de las imágenes, en estos momentos no cuento con photoshop como para redimensionar las originales y que no pierdan calidad, en la semana las edito*/
+
+
+/*Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/*Estilos universales del sitio*/
+*
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #434343);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#menu_1, #logo, li {
+    display: inline-block;
+}
+
+/*Logo Ibanez*/
+#logo{
+    float: right;
+    padding: 2px 25px 0 0;
+}
+
+/*Menu nav*/
+#menu_1 {
+    margin: 0;
+    padding-left: 10px;
+    width: 1327px;
+    font-size: 38px;
+}
+/*Menu section*/
+#menu_2{
+    font-size: 31px;
+}
+
+/*Imagen de entrada*/
+#img_principal{
+    display: block;
+}
+
+/*Puntos que pertenecen al futuro carrusel*/
+#puntos{
+    padding-left: 950px;
+}
+
+#menu_1, ul, h2, #fecha, #news_registrations, article p, #sign_up_updates, footer{
+    text-align: center;
+} 
+
+
+nav ul li{ /*Menu 1*/
+    padding: 0 55px;
+}
+
+section ul li{ /*Menu 2*/
+    padding: 0 25px;
+}
+/*Titulo h1 y h3*/
+h1, h3{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 15px 28px;
+}
+/*Titulo h2*/
+h2{
+    padding: 9px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+article, #news_registrations{
+    background-color: #252525;
+}
+/*Texto del article*/
+article p{
+    padding: 49px 64px;
+    font-size: 22px;
+}
+/*Todos los p del sitio hasta ahora*/
+p{
+    font-size: 19px;
+    font-weight: 400;
+}
+/*Caja donde aparecen las noticias de lanzamientos*/
+#news_registrations{
+    width: 600px;
+    height: 200px;
+    padding-top: 65px;
+    margin-left: 35%;
+    font-size: 40px;
+    border-radius: 20px;
+}
+/*Frase debajo de la caja de noticias de lanzamientos, pronto voy a estar vinculándolo a otro html donde le permita al usuario registrarse gratis*/
+#sign_up_updates{
+    padding: 49px 50px ;
+}
+/*Flecha para volver al top de la página*/
+#flecha{
+    padding: 0 938px 10px 938px;
+}
+
+/*Pie de página*/
+footer p{
+    font-size: 13px;
+}

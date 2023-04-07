@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibanez | Shop</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav><a href="../index.html">Go Back</a></nav>
+        <h1>Ibanez GRX70QA GIO Series Transparent Sunburst</h1>
+    </header>
+    <main>
+        <figure> <!-- La idea es, en lo posible, que las imágenes pasen una por una tipo carousel -->
+            <!-- Me comentó la tutora Ana que las dimensiones de las fotos se modifican mas adelante con css, por eso la dejo como la descargué aunque esté un poco grande en tamaño -->
+            <img src="../assets/bluers.png" alt="blue">
+            <img src="../assets/blackrs.png" alt="black">
+            <img src="../assets/redrs.png" alt="red">
+            <img src="../assets/sbrs.png" alt="sb">
+            <img src="../assets/emeraldrs.png" alt="emerald">
+            <img src="../assets/violetrs.png" alt="violet">
+        </figure>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>
+                    <label for="Blue">Blue</label>
+                    <input type="radio" id="blue" name="blue" value="blue">
+                    <label for="Black">Black</label>
+                    <input type="radio" id="black" name="black" value="black">
+                    <label for="Red">Red</label>
+                    <input type="radio" id="red" name="red" value="red">
+                    <label for="SB">SB</label>
+                    <input type="radio" id="SB" name="SB" value="SB">
+                    <label for="Emerald">Emerald</label>
+                    <input type="radio" id="emerald" name="emerald" value="emerald">
+                    <label for="Violet">Violet</label>
+                    <input type="radio" id="violet" name="violet" value="violet">
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>Purchasing Data</legend>
+                <label for="name">
+                    <span>Full Name</span>
+                    <input type="text" required>
+                </label>
+                <label for="state">
+                    <span>State</span>
+                    <input type="text" id="state" required>
+                </label>
+                <label for="location">
+                    <span>Location</span>
+                    <input type="text" id="location" required>
+                </label>
+                <label for="zip-code">
+                    <span>Zip Code</span>
+                    <input type="text" id="zip-code" required>
+                </label>
+                <label for="address">
+                    <span>Address</span>
+                    <input type="text" id="address" required>
+                </label>
+                <label for="email">
+                    <span>Email</span>
+                    <input type="text" id="email" required>
+                </label>
+                <label for="phone-number">
+                    <span>Phone Number</span>
+                    <input type="text" id="phone-number" required>
+                </label>
+
+                <legend>Payment Method</legend>
+                <label for="debit">Debit</label>
+                <input type="radio" id="debit" name="debit" value="debit">
+                <label for="credit">Credit</label>
+                <input type="radio" id="credit" name="credit" value="credit">
+                <label for="number">
+                    <span>Card Number</span>
+                    <input type="password" id="number" required>
+                </label>
+                <label for="name">
+                    <span>Card Name</span>
+                    <input type="text" id="name" required>
+                </label>
+                <label for="expiry-date">
+                    <span>Expiry Date</span>
+                    <input type="text" id="expiry-date" required>
+                </label>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © 2023 All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
